@@ -16,7 +16,9 @@
     "config": {
         "bin-dir": "bin"
     },
-    "psr-0": { "Ricbra\\Bundle\\RobotsTxtBundle": "" },
+    "autoload": {
+        "psr-0": {"Ricbra\\Bundle\\RobotsTxtBundle": ""}
+    },
     "target-dir": "Ricbra/Bundle/RobotsTxtBundle",
     "extra": {
         "branch-alias": {
