@@ -1,0 +1,21 @@
+{
+    "name": "ricbra/robots-txt-bundle",
+    "description": "Simple Symfony2 which generates robots.txt based on config setting",
+    "keywords": ["robots.txt", "robots", "crawlers", "spiders"],
+    "require": {
+        "symfony/framework-bundle": "~2.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Richard van den Brand",
+            "email": "richard@vandenbrand.org"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "config": {
+        "bin-dir": "bin"
+    },
+    "psr-0": { "Ricbra\\Bundle\\RobotsTxtBundle": "" },
+    "target-dir": "Ricbra/Bundle/RobotsTxtBundle"
+}

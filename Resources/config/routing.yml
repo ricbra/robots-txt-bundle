@@ -1,0 +1,3 @@
+ricbra_robots_txt_homepage:
+    path:     /robots.txt
+    defaults: { _controller: ricbra_robots_txt.robots_txt_controller:robotsTxtAction }
