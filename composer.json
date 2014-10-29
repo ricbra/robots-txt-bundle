@@ -17,5 +17,10 @@
         "bin-dir": "bin"
     },
     "psr-0": { "Ricbra\\Bundle\\RobotsTxtBundle": "" },
-    "target-dir": "Ricbra/Bundle/RobotsTxtBundle"
+    "target-dir": "Ricbra/Bundle/RobotsTxtBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
 }
