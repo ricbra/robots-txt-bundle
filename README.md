@@ -37,6 +37,7 @@ Composer ftw:
 Then enable the bundle:
 
 ```php
+<?php
 // app/AppKernel.php
 
 $bundles = array(
@@ -44,6 +45,7 @@ $bundles = array(
     new Ricbra\Bundle\RobotsTxtBundle\RicbraRobotsTxtBundle(),
     ...
 );
+```
 
 Update routing:
 
