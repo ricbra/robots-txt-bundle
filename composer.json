@@ -3,7 +3,7 @@
     "description": "Simple Symfony2 which generates robots.txt based on config setting",
     "keywords": ["robots.txt", "robots", "crawlers", "spiders"],
     "require": {
-        "symfony/framework-bundle": "~2.3"
+        "symfony/framework-bundle": "^3.0"
     },
     "license": "MIT",
     "authors": [
