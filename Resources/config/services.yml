@@ -1,4 +1,4 @@
 services:
     ricbra_robots_txt.robots_txt_controller:
         class: Ricbra\Bundle\RobotsTxtBundle\Controller\RobotsTxtController
-        arguments: [@templating, %ricbra_robots_txt.allow_robots%]
+        arguments: ['@templating', %ricbra_robots_txt.allow_robots%]
