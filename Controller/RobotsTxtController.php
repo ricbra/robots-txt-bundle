@@ -18,7 +18,7 @@ class RobotsTxtController
 
     public function robotsTxtAction()
     {
-        $content = $this->templating->render('RicbraRobotsTxtBundle:RobotsTxt:robots.txt.twig', array(
+        $content = $this->templating->renderView('RicbraRobotsTxtBundle:RobotsTxt:robots.txt.twig', array(
             'allow_robots' => $this->allowRobots
         ));
 
